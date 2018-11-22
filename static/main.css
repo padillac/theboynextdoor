@@ -1,0 +1,16 @@
+/* Root styles */
+
+:root {
+  --background-green: #33aa44;
+
+}
+
+
+
+
+/* BODY */
+
+body {
+  background-color: var(--background-green);
+  margin: 0;
+}
