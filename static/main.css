@@ -29,3 +29,13 @@ body {
   bottom: 0;
   left: 0;
 }
+
+.parallax__layer--background {
+  transform: translateZ(-1px);
+}
+.parallax__layer--0 {
+  transform: translateZ(0px);
+}
+.parallax__layer--foreground {
+  transform: translateZ(1px);
+}
