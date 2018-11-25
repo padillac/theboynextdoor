@@ -132,8 +132,8 @@ button:hover {
 
 #webdesigntag {
   position: absolute;
-  top: 165vh;
-  font-size: 9px;
+  top: 166vh;
+  font-size: 8px;
   display: flex;
   justify-content: space-between;
 }
