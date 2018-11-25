@@ -41,6 +41,12 @@ body {
   transform: translateZ(0px) scale(1);
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 80vh;
+}
+
 .description {
   display: grid;
   grid-template-columns: 1fr 10px minmax(600px, 320px) 10px 1fr;
