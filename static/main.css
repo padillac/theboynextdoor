@@ -3,6 +3,7 @@
 :root {
   --background-green: #33aa44;
 
+  font-family: Helvetica, sans-serif;
 }
 
 
@@ -30,7 +31,7 @@ body {
   left: 0;
 }
 
-.parallax_layer--backgrond2 {
+.parallax_layer--background2 {
   transform: translateZ(-4px) scale(5);
 }
 .parallax_layer--background {
