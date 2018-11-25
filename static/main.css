@@ -45,6 +45,7 @@ header {
   display: flex;
   justify-content: center;
   margin-top: 90vh;
+  transform: scale(2.5);
 }
 
 .description {
