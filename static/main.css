@@ -32,10 +32,10 @@ body {
 }
 
 .parallax_layer--background2 {
-  transform: translateZ(-4px) scale(5.1);
+  transform: translateZ(-2px) scale(3.1);
 }
 .parallax_layer--background {
-  transform: translateZ(-2px) scale(3);
+  transform: translateZ(-1px) scale(2);
 }
 .parallax_layer--foreground {
   transform: translateZ(0px) scale(1);
@@ -50,8 +50,7 @@ header {
 #title {
   transform: scale(2.5);
   color: #ffffff;
-
-  border: 1px solid #000000;
+  
 }
 
 .description {
@@ -64,4 +63,5 @@ header {
   grid-column: 3/-3;
   font-size: 2.5em;
   line-height: 1.5;
+
 }
