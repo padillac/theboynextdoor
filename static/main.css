@@ -2,6 +2,8 @@
 
 :root {
   --background-green: #33aa44;
+  --lime-green: #87ff44;
+  --dark-green: #053311;
 
   font-family: Helvetica, sans-serif;
 }
@@ -13,6 +15,10 @@
 body {
   background-color: var(--background-green);
   margin: 0;
+}
+
+.content {
+
 }
 
 .parallax {
@@ -31,6 +37,9 @@ body {
   left: 0;
 }
 
+.parallax_layer--background3 {
+  transform: translateZ(-3px) scale(4.1);
+}
 .parallax_layer--background2 {
   transform: translateZ(-2px) scale(3.1);
 }
@@ -44,24 +53,48 @@ body {
 header {
   display: flex;
   justify-content: center;
-  margin-top: 90vh;
+  margin-top: 85vh;
 }
 
 #title {
-  transform: scale(2.5);
+  transform: scale(3);
   color: #ffffff;
-  
+
 }
 
+
 .description {
-  margin-top: 250vh;
   display: grid;
   grid-template-columns: 1fr 10px minmax(600px, 320px) 10px 1fr;
+
+  margin-top: 175%;
 }
 
 .description > * {
   grid-column: 3/-3;
   font-size: 2.5em;
   line-height: 1.5;
+  background-color: rgba(51, 170, 68, 0.8);
+  padding: 1em;
+}
 
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr minmax(50px,100px) 85%;
+  margin-top: 80vh;
+}
+
+.navigation > button {
+  grid-column: 2/-2;
+  background-color: var(--lime-green);
+  height:3em;
+  border: 1px solid black;
+  border-radius: 1px;
+  transition-duration: .5s;
+  -webkit-transition-duration: .5s;
+}
+
+.navigation > button:hover {
+  background-color: var(--dark-green);
+  color: white;
 }
