@@ -72,23 +72,6 @@ header {
 
 }
 
-
-.description {
-  display: grid;
-  grid-template-columns: 1fr 10px minmax(650px, 320px) 10px 1fr;
-
-  margin-top: 200%;
-  margin-bottom: 300em;
-}
-
-.description > * {
-  grid-column: 3/-3;
-  font-size: 2.5em;
-  line-height: 1.5;
-  text-align: justify;
-  padding: 1em;
-}
-
 .navigation {
   display: grid;
   grid-template-columns: 1fr minmax(50px,100px) 85%;
@@ -113,4 +96,21 @@ button {
 button:hover {
   background-color: var(--dark-green);
   color: white;
+}
+
+
+.description {
+  display: grid;
+  grid-template-columns: 1fr 10px minmax(650px, 320px) 10px 1fr;
+
+  margin-top: 200%;
+  margin-bottom: 300em;
+}
+
+.description > * {
+  grid-column: 3/-3;
+  font-size: 2.5em;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 1em;
 }
