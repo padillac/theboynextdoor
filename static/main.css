@@ -7,7 +7,6 @@
 
 
 
-
 /* BODY */
 
 body {
@@ -31,11 +30,11 @@ body {
 }
 
 .parallax_layer--background {
-  transform: translateZ(-1px);
+  transform: translateZ(-1px) scale(2);
 }
 .parallax_layer--0 {
   transform: translateZ(0px);
 }
 .parallax_layer--foreground {
-  transform: translateZ(1px);
+  transform: translateZ(2px) scale(-1);
 }
