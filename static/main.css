@@ -22,7 +22,7 @@ body {
   overflow-y: auto;
 }
 
-.parallax__layer {
+.parallax_layer {
   position: absolute;
   top: 0;
   right: 0;
@@ -30,12 +30,12 @@ body {
   left: 0;
 }
 
-.parallax__layer--background {
+.parallax_layer--background {
   transform: translateZ(-1px);
 }
-.parallax__layer--0 {
+.parallax_layer--0 {
   transform: translateZ(0px);
 }
-.parallax__layer--foreground {
+.parallax_layer--foreground {
   transform: translateZ(1px);
 }
