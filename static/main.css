@@ -19,10 +19,6 @@ body {
   margin: 0;
 }
 
-.locationmarker {
-  position: fixed;
-  visibility: hidden;
-}
 
 /* PARALLAX */
 
