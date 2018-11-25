@@ -24,6 +24,8 @@ body {
   visibility: hidden;
 }
 
+/* PARALLAX */
+
 .parallax {
   perspective: 1px;
   height: 100vh;
@@ -54,11 +56,12 @@ body {
   transform: translateZ(0px) scale(1);
 }
 
+/* BANNER / HEADER AREA */
+
 #banner-image {
   width: 100%;
 
 }
-
 
 header {
   display: flex;
@@ -71,6 +74,8 @@ header {
   color: #ffffff;
 
 }
+
+/* NAVIGATION */
 
 .navigation {
   display: grid;
@@ -98,6 +103,8 @@ button:hover {
   color: white;
 }
 
+
+/* DESCRIPTION */
 
 .description {
   display: grid;
