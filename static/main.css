@@ -21,7 +21,7 @@ body {
 
 .locationmarker {
   position: fixed;
-  top: 226vh;
+  visibility: hidden;
 }
 
 .parallax {
