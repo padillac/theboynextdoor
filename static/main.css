@@ -55,6 +55,9 @@ body {
 .parallax_layer--foreground {
   transform: translateZ(0px) scale(1);
 }
+.parallax_layer--navigation {
+  transform: translateZ(-7.5px) scale(9.5);
+}
 
 /* BANNER / HEADER AREA */
 
@@ -79,8 +82,8 @@ header {
 
 .navigation {
   display: grid;
-  grid-template-columns: 1fr minmax(50px,100px) 85%;
-  margin-top: 80vh;
+  grid-template-columns: 1fr minmax(50px,100px) 83%;
+  margin-top: 75vh;
 }
 
 .navigation > * {
@@ -111,7 +114,7 @@ button:hover {
   grid-template-columns: 1fr 10px minmax(650px, 320px) 10px 1fr;
 
   margin-top: 200%;
-  margin-bottom: 300em;
+  margin-bottom: 130em;
 }
 
 .description > * {
