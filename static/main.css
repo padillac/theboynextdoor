@@ -30,19 +30,19 @@ body {
   left: 0;
 }
 
-.parallax_layer--background {
-  transform: translateZ(-1px) scale(2);
+.parallax_layer--backgrond2 {
+  transform: translateZ(-4px) scale(5);
 }
-.parallax_layer--0 {
-  transform: translateZ(0px);
+.parallax_layer--background {
+  transform: translateZ(-2px) scale(3);
 }
 .parallax_layer--foreground {
-  transform: translateZ(2px) scale(-1);
+  transform: translateZ(0px) scale(1);
 }
 
 .description {
   display: grid;
-  grid-template-columns: 1fr 10px minmax(640px, 320px) 10px 1fr;
+  grid-template-columns: 1fr 10px minmax(600px, 320px) 10px 1fr;
 }
 
 .description > * {
