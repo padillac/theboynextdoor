@@ -44,14 +44,16 @@ body {
 header {
   display: flex;
   justify-content: center;
-  margin-top: 85vh;
+  margin-top: 90vh;
 }
 
 .description {
+  margin-top: 100vh;
   display: grid;
   grid-template-columns: 1fr 10px minmax(600px, 320px) 10px 1fr;
 }
 
 .description > * {
   grid-column: 3/-3;
+  line-height: 1.5;
 }
