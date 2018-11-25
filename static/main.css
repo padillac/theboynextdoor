@@ -32,7 +32,7 @@ body {
 }
 
 .parallax_layer--background2 {
-  transform: translateZ(-4px) scale(5);
+  transform: translateZ(-4px) scale(5.1);
 }
 .parallax_layer--background {
   transform: translateZ(-2px) scale(3);
@@ -48,7 +48,7 @@ header {
 }
 
 .description {
-  margin-top: 100vh;
+  margin-top: 250vh;
   display: grid;
   grid-template-columns: 1fr 10px minmax(600px, 320px) 10px 1fr;
 }
