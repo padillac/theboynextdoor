@@ -105,7 +105,7 @@ button:hover {
 
 /* DESCRIPTION */
 
-.description {
+.main-content {
   display: grid;
   grid-template-columns: 1fr 10px minmax(650px, 320px) 10px 1fr;
 
@@ -113,13 +113,17 @@ button:hover {
   margin-bottom: 130em;
 }
 
-.description > * {
+.main-content > * {
   grid-column: 3/-3;
-  font-size: 2.5em;
-  line-height: 1.5;
   text-align: justify;
-  padding: 1em;
+  padding: .7em;
   margin-bottom: 5em;
+}
+
+#description {
+  font-size: 2.5em;
+  line-height: 1.4;
+
 }
 
 #webdesigntag {
