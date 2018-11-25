@@ -122,8 +122,12 @@ button:hover {
 
 #description {
   font-size: 2.5em;
-  line-height: 1.4;
+  line-height: 1.2;
 
+}
+
+.contact-info {
+  font-size: 2em;
 }
 
 #webdesigntag {
