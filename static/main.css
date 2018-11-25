@@ -5,6 +5,8 @@
   --lime-green: #87ff44;
   --dark-green: #053311;
 
+
+
   font-family: Helvetica, sans-serif;
 }
 
@@ -27,6 +29,7 @@ body {
   width: 100vw;
   overflow-x: hidden;
   overflow-y: auto;
+  scroll-behavior: smooth;
 }
 
 .parallax_layer {
@@ -50,6 +53,12 @@ body {
   transform: translateZ(0px) scale(1);
 }
 
+#banner-image {
+  width: 100%;
+  
+}
+
+
 header {
   display: flex;
   justify-content: center;
@@ -67,7 +76,8 @@ header {
   display: grid;
   grid-template-columns: 1fr 10px minmax(600px, 320px) 10px 1fr;
 
-  margin-top: 175%;
+  margin-top: 200%;
+  margin-bottom: 100em;
 }
 
 .description > * {
@@ -84,17 +94,21 @@ header {
   margin-top: 80vh;
 }
 
-.navigation > button {
+.navigation > * {
   grid-column: 2/-2;
+}
+
+button {
   background-color: var(--lime-green);
   height:3em;
+  width: 100%;
   border: 1px solid black;
   border-radius: 1px;
   transition-duration: .5s;
   -webkit-transition-duration: .5s;
 }
 
-.navigation > button:hover {
+button:hover {
   background-color: var(--dark-green);
   color: white;
 }
