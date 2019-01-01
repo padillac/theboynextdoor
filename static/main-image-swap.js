@@ -10,5 +10,5 @@ setTimeout(function() {
   setInterval(function() {
     bannerImg1.style = 'visibility: visible;';
     bannerImg2.style = 'visibility: hidden;';
-  });
+  }, 6000);
 }, 3000);
