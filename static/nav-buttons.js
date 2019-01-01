@@ -5,15 +5,15 @@ var backtotopbutton = document.getElementById('backtotopbutton');
 
 descriptionbutton.onclick = function () {
   alert('DESCRIPTION');
-  window.scrollTo(0,1000);
+  window.scroll(0, 1000);
 }
 contactbutton.onclick = function () {
   alert('CONTACT');
-  window.scrollTo(0,1500);
+  window.scroll(0, 1500);
 }
 backtotopbutton.onclick = function () {
   alert('BACKTOTOP');
-  window.scrollTo(0,0);
+  window.scroll(0, 0);
 }
 
 
