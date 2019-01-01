@@ -1,16 +1,10 @@
 
-var mainImg = document.getElementById('banner-image');
+var bannerImg1 = document.getElementById('banner-image1');
+var bannerImg2 = document.getElementById('banner-image2');
 
 
-  setTimeout(function() {
-    mainImg.src = "files/photos/andreasonsnowblower.png";
-    mainImg.alt = "Andreas on his snowblower";
-    alert('HELLO');
-  }, 5000);
-
-
-//  setTimeout(function() {
-//    mainImg.src = "files/photos/andreasontractor.png";
-//    mainImg.alt = "Andreas on his tractor";
-//    alert('HELLO2');
-//  }, 5000);
+  while (true) {
+    setTimeout(function () {
+      alert('HELLO2');
+    }, 5000,);
+  }
