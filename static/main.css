@@ -57,9 +57,11 @@ body {
 
 /* BANNER / HEADER AREA */
 
-#banner-image {
+#banner-image1 {
   width: 100%;
-
+}
+#banner-image2 {
+  width: 100%;
 }
 
 header {
