@@ -59,9 +59,11 @@ body {
 
 #banner-image1 {
   width: 100%;
+  position: absolute;
 }
 #banner-image2 {
   width: 100%;
+  position: absolute;
 }
 
 header {
