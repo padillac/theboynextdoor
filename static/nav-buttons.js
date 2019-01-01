@@ -4,16 +4,16 @@ var backtotopbutton = document.getElementById('backtotopbutton');
 
 
 descriptionbutton.onclick = function () {
-  window.scrollTo(0,1000);
   alert('DESCRIPTION');
+  window.scrollTo(0,1000);
 }
 contactbutton.onclick = function () {
-  window.scrollTo(0,1500);
   alert('CONTACT');
+  window.scrollTo(0,1500);
 }
 backtotopbutton.onclick = function () {
-  window.scrollTo(0,0);
   alert('BACKTOTOP');
+  window.scrollTo(0,0);
 }
 
 
