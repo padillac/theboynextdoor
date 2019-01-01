@@ -1,5 +1,11 @@
 
 var mainImg = document.getElementById('banner-image');
-alert(mainImg.src);
 
-//smoothly switch between the two image files
+while (true) {
+  setTimeout(function() {
+    mainImg.src = "files/photos/andreasonsnowblower.png"
+  }, 5000);
+  setTimeout(function() {
+    mainImg.src = "files/photos/andreasontractor.png"
+  }, 5000);
+}
