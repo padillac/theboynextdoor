@@ -2,8 +2,9 @@ var descriptionButton = document.getElementById('descriptionbutton');
 var contactButton = document.getElementById('contactbutton');
 var backToTopButton = document.getElementById('backtotopbutton');
 
+var title = document.getElementById('title');
 var descriptionElement = document.getElementById('description');
-var contactElement = document.getElementById('contact-me')
+var contactElement = document.getElementById('contact-me');
 
 
 descriptionButton.onclick = function () {
@@ -13,7 +14,7 @@ contactButton.onclick = function () {
   contactElement.scrollIntoView();
 };
 backToTopButton.onclick = function () {
-  window.scrollTo(0, 0);
+  title.scrollIntoView();
 };
 
 
