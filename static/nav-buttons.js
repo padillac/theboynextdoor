@@ -2,7 +2,7 @@ var descriptionButton = document.getElementById('descriptionbutton');
 var contactButton = document.getElementById('contactbutton');
 var backToTopButton = document.getElementById('backtotopbutton');
 
-var title = document.getElementById('title');
+var top = document.getElementById('top');
 var descriptionElement = document.getElementById('description');
 var contactElement = document.getElementById('contact-me2');
 
@@ -14,7 +14,7 @@ contactButton.onclick = function () {
   contactElement.scrollIntoView();
 };
 backToTopButton.onclick = function () {
-  title.scrollIntoView();
+  top.scrollIntoView();
 };
 
 
