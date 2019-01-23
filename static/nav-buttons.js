@@ -4,7 +4,7 @@ var backToTopButton = document.getElementById('backtotopbutton');
 
 var top = document.getElementById('top');
 var descriptionElement = document.getElementById('description');
-var contactElement = document.getElementById('contact-me2');
+var contactElement = document.getElementById('contact-me');
 
 
 descriptionButton.onclick = function () {
