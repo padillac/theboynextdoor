@@ -1,15 +1,18 @@
-var descriptionbutton = document.getElementById('descriptionbutton');
-var contactbutton = document.getElementById('contactbutton');
-var backtotopbutton = document.getElementById('backtotopbutton');
+var descriptionButton = document.getElementById('descriptionbutton');
+var contactButton = document.getElementById('contactbutton');
+var backToTopButton = document.getElementById('backtotopbutton');
+
+var descriptionElement = document.getElementById('description');
+var contactElement = document.getElementById('contact-me')
 
 
-descriptionbutton.onclick = function () {
-  window.scrollTo(0, 2000);
+descriptionButton.onclick = function () {
+  descriptionElement.scrollIntoView();
 };
-contactbutton.onclick = function () {
-  window.scrollTo(0, 3500);
+contactButton.onclick = function () {
+  contactElement.scrollIntoView();
 };
-backtotopbutton.onclick = function () {
+backToTopButton.onclick = function () {
   window.scrollTo(0, 0);
 };
 
