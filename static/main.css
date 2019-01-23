@@ -17,6 +17,7 @@
 body {
   background-color: var(--background-green);
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 
